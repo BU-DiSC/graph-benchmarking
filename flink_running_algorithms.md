@@ -18,9 +18,14 @@ Running custom algorithm on AWS
 
 ```bash
 ./bin/flink run directory/.jar file
+#Example code 
+./bin/flink run custom/bfs.jar
 ```
 Run preset algorithms with custom input data
 ```bash 
 ./bin/flink run examples/directory/.jar file --input ./dataset link
-
+#Example code 
+./bin/flink run examples/batch/PageRank.jar --input ./custom/BFS/com-youtube.ungraph.txt
 ```
+
+Example code 
