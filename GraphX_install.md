@@ -30,9 +30,9 @@
 
 
 ### 3.Compile & Package
-`cd $SPARK_HOME/examples`
-`sbt compile` 
-`sbt package`
+1. `cd $SPARK_HOME/examples`
+2. `sbt compile` 
+3. `sbt package`
 
 You should end up with a JAR like: `$SPARK_HOME/examples/target/scala-2.12/sparkexamples_2.12-3.5.2.jar`
 
